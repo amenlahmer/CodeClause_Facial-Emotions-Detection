@@ -26,9 +26,7 @@ Label Integer Mapping:
 Emotion labels were mapped to integer values (e.g., "happy" to 0, "sad" to 1) instead of one-hot encoding.
 Simplifies label representation and reduces memory requirements during training.
 
-Data Balancing:
-Techniques like oversampling or undersampling were applied to handle class imbalance if present.
-Ensures the model learns to recognize all emotions equally, avoiding bias towards the majority class.
+
 ## Model (CNN)
 The Convolutional Neural Network (CNN) is a deep learning architecture well-suited for image recognition tasks. The CNN model was designed and created specifically for facial emotion recognition. It consists of multiple convolutional and pooling layers to extract relevant features from the facial images. The output layer uses softmax activation to predict the probabilities of different emotions for a given input face.
 
